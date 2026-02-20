@@ -1,0 +1,14 @@
+name: My Test Action
+
+on: [push]  # Trigger this workflow whenever you push code
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest  # The "runner" computer
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3  # Grab your repo code
+
+      - name: 23f2003477@ds.study.iitm.ac.in
+        run: echo "Hello, world!"  # Step with your email in the name
